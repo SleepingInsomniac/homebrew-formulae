@@ -1,7 +1,7 @@
 class Vhost < Formula
   homepage "https://github.com/SleepingInsomniac/vhost"
-  url "https://github.com/SleepingInsomniac/vhost/archive/1.1.1.tar.gz"
-  sha1 "db5201ecd4634715537da8cf499965c5320b2689"
+  url "https://github.com/SleepingInsomniac/vhost/archive/1.1.3.tar.gz"
+  sha1 "8606dc8de0b31688478f6ea2d8d9bd1ace0dcb8e"
 
   def install
     bin.install "bin/vhost"
