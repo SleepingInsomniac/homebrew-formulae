@@ -1,10 +1,11 @@
 class Vhost < Formula
   homepage "https://github.com/SleepingInsomniac/vhost"
-  url "https://github.com/SleepingInsomniac/vhost/archive/1.0.2.tar.gz"
-  sha1 "e67fe8a57307e09adf8c7cbcfeeee33a6aa6018c"
+  url "https://github.com/SleepingInsomniac/vhost/archive/1.1.0.tar.gz"
+  sha1 "d918e991fc29912f464523f31c46520eb90acd31"
 
   def install
-    bin.install "vhost"
+    bin.install "bin/vhost"
+    lib.install "lib/vhost.rb"
     etc.install "vhosts-conf" unless File.exists? File.join(etc, "vhosts-conf")
   end
 
